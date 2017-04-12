@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+
+<form action="" class="form">
+
+    <div class="row">
+        <div class="column large-6">
+            <label>
+                <input type="radio" checked name='algorithm' value='0'/>#1
+            </label>
+        </div>
+        <div class="column large-6">
+            <label>
+                <input type="radio" name='algorithm' value='1'/>#2
+            </label>
+        </div>
+        <div class="column large-6">
+            <label>
+                <p>Text to encrypt</p>
+                <input type="text" name='encrypt'/>
+            </label>
+            <button type="button" class='button btn-encrypt'>Encrypt</button>
+        </div>
+        <div class="column large-6">
+            <label>
+                <p>Key</p>
+                <input type="text" name='key' placeholder="key"/>
+            </label>
+        </div>
+
+        <!--<div class="column large-6">-->
+            <!--<label>-->
+                <!--<p>Text to decrypt</p>-->
+                <!--<input type="text" name='decrypt'/>-->
+            <!--</label>-->
+            <!--<button type="button" class='button btn-decrypt'>Decrypt</button>-->
+        <!--</div>-->
+
+        <div class="column large-12">
+            <label>
+                <textarea name="result" cols="30" rows="5"></textarea>
+            </label>
+        </div>
+    </div>
+</form>
+
+</body>
+</html>
